@@ -15,6 +15,6 @@ top_rated_movies <- filter(diary, Rating >= rating_cutoff)
 
 #export top_rated_movies as csv
 
-write.csv(top_rated_movies,"C:\\Users\\abby\topratedmovies.csv", row.names = FALSE)
+write.csv(top_rated_movies,"topratedmovies.csv", row.names = FALSE)
 
 
